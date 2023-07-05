@@ -5,7 +5,7 @@
 #
 Name     : faultstat
 Version  : 0.01.10
-Release  : 2
+Release  : 3
 URL      : https://github.com/ColinIanKing/faultstat/archive/refs/tags/V0.01.10.tar.gz
 Source0  : https://github.com/ColinIanKing/faultstat/archive/refs/tags/V0.01.10.tar.gz
 Summary  : Page fault monitoring tool
