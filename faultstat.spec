@@ -5,7 +5,7 @@
 #
 Name     : faultstat
 Version  : 0.01.10
-Release  : 4
+Release  : 5
 URL      : https://github.com/ColinIanKing/faultstat/archive/refs/tags/V0.01.10.tar.gz
 Source0  : https://github.com/ColinIanKing/faultstat/archive/refs/tags/V0.01.10.tar.gz
 Summary  : Page fault monitoring tool
@@ -68,7 +68,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1688405281
+export SOURCE_DATE_EPOCH=1689794432
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -81,7 +81,7 @@ make  %{?_smp_mflags}
 
 
 %install
-export SOURCE_DATE_EPOCH=1688405281
+export SOURCE_DATE_EPOCH=1689794432
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/faultstat
 cp %{_builddir}/faultstat-%{version}/COPYING %{buildroot}/usr/share/package-licenses/faultstat/4cc77b90af91e615a64ae04893fdffa7939db84c || :
